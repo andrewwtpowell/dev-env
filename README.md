@@ -4,6 +4,10 @@
 ```
 docker build -t <tag> .
 ```
+## Pulling Container Image from Docker Hub
+```
+docker pull andrewwtpowell/dev-env:latest
+```
 ## Running Container
 ```
 docker run -it --rm \
@@ -15,3 +19,5 @@ docker run -it --rm \
 -v ~/.ssh:/home/me/.ssh \
 <tag>:latest
 ```
+## To Do:
+- Reduce image size
