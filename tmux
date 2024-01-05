@@ -1,1 +1,1 @@
-set-option -g default-shell $SHELL
+set-option -g default-shell /bin/zsh
