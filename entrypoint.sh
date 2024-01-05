@@ -18,4 +18,5 @@ fi
 
 chown -R me: /home/me
 
-exec /sbin/su-exec me tmux -u -2 "$@"
+#exec /sbin/su-exec me tmux -u -2 "$@"
+exec /bin/zsh
